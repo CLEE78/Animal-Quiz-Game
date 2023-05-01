@@ -16,11 +16,11 @@ def check_guess(guess, answer):
         print("The Correct answer is ",answer )
     
 score = 0
-print("Guess the Animal")
-guess1 = input("What animal lives at the North Pole? ")
+print("Guess Which Animal")
+guess1 = input("Which animal lives at the North Pole? ")
 check_guess(guess1, "polar bear")
-guess2 = input("Which is the fastest animal? ")
+guess2 = input("Which is the fastest land animal? ")
 check_guess(guess2, "Cheetah")
-guess3 = input("Which is the largest water animal? ")
+guess3 = input("Which is the largest water based animal? ")
 check_guess(guess3, "Blue Whale")
-print("Your Score is "+ str(score))
+print(f"Your Score is +{score}")
